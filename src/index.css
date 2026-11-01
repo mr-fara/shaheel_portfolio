@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Manrope", system-ui, -apple-system, sans-serif;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+
+  --color-ink: #101010;
+  --color-charcoal: #191919;
+  --color-deep: #242424;
+  --color-ivory: #F5F2EC;
+  --color-paper: #FBFAF7;
+  --color-white: #FFFFFF;
+  --color-muted: #898781;
+  --color-line: #DCD8D0;
+  --color-line-dark: #2A2A2A;
+  --color-accent: #B49A72;
+  --color-accent-light: #C9B28D;
+}
+
+:root {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Manrope", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #101010;
+  color: #F5F2EC;
+  overflow-x: hidden;
+}
+
+.font-serif {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+.font-sans {
+  font-family: "Manrope", system-ui, -apple-system, sans-serif;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #101010;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b49a72;
+}
+
+/* Accessible focus ring */
+:focus-visible {
+  outline: 2px solid #b49a72;
+  outline-offset: 3px;
+}
