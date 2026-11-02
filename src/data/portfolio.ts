@@ -37,7 +37,7 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'solitude-by-the-sea',
     title: 'Solitude by the Sea',
     category: 'Portraits',
-    image: '/src/assets/images/portrait_editorial_monograph_1793288280204.jpg',
+    image: '/images/portrait_editorial_monograph_1793288280204.jpg',
     alt: 'Natural light portrait monograph of a woman in quiet contemplation near window',
     location: 'Coastal Haven',
     year: '2025',
@@ -56,7 +56,7 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'cotswold-twilight-vows',
     title: 'Twilight Vows',
     category: 'Weddings',
-    image: '/src/assets/images/wedding_emotional_moment_1793288281539.jpg',
+    image: '/images/wedding_emotional_moment_1793288281539.jpg',
     alt: 'Bride and groom sharing an emotional authentic moment against limestone country estate at dusk',
     location: 'Cotswolds, UK',
     year: '2025',
@@ -75,7 +75,7 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'monolithic-sculpture',
     title: 'Monolithic Form',
     category: 'Fashion',
-    image: '/src/assets/images/fashion_avant_garde_1793288282001.jpg',
+    image: '/images/fashion_avant_garde_1793288282001.jpg',
     alt: 'Avant-garde fashion editorial silhouette in brutalist architectural interior',
     location: 'Metropolitan Pavilion',
     year: '2025',
@@ -94,7 +94,7 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'golden-sparkler-revelry',
     title: 'Midnight Reverie',
     category: 'Events',
-    image: '/src/assets/images/events_celebration_candid_1793288300289.jpg',
+    image: '/images/events_celebration_candid_1793288300289.jpg',
     alt: 'Candid night celebration with golden sparklers and laughter among friends',
     location: 'Open Garden Gala',
     year: '2025',
@@ -113,7 +113,7 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'quiet-morning-linen',
     title: 'Morning Respite',
     category: 'Lifestyle',
-    image: '/src/assets/images/lifestyle_golden_interior_1793288301262.jpg',
+    image: '/images/lifestyle_golden_interior_1793288301262.jpg',
     alt: 'Sunlit morning room with ceramic tea cups, linen cloth and olive branches',
     location: 'Nordic Residence',
     year: '2024',
@@ -132,7 +132,7 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'coastal-ridge-awakening',
     title: 'The Edge of Light',
     category: 'Travel',
-    image: '/src/assets/images/hero_cinematic_light_1793288280398.jpg',
+    image: '/images/hero_cinematic_light_1793288280398.jpg',
     alt: 'Atmospheric coastal cliff bathed in sunbeams breaking through ocean mist',
     location: 'Atlantic Headland',
     year: '2024',
@@ -151,7 +151,7 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'essence-of-slate',
     title: 'L’Eau Minérale',
     category: 'Commercial',
-    image: '/src/assets/images/commercial_luxury_vessel_1793288304148.jpg',
+    image: '/images/commercial_luxury_vessel_1793288304148.jpg',
     alt: 'Luxury perfume flacon on wet textured slate with natural rim lighting',
     location: 'Studio Atelier',
     year: '2025',
@@ -170,7 +170,7 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'highland-whisper',
     title: 'The Highland Sanctuary',
     category: 'Travel',
-    image: '/src/assets/images/interlude_visual_light_1793288382.jpg', // will use interlude_visual_light_1793288283082.jpg
+    image: '/images/interlude_visual_light_1793288283082.jpg',
     alt: 'Rolling highlands with lone cottage surrounded by morning mist and mountain crests',
     location: 'Scottish Highlands',
     year: '2024',
@@ -187,14 +187,11 @@ export const portfolioItems: PortfolioItem[] = [
   }
 ];
 
-// Fix the image path for highland-whisper
-portfolioItems[7].image = '/src/assets/images/interlude_visual_light_1793288283082.jpg';
-
 export const featuredStory = {
   eyebrow: "BEHIND THE FRAME",
   heading: "Every Frame Has a Story.",
   subheading: "Beyond the composition and the light lies the feeling that makes a photograph worth remembering.",
-  image: "/src/assets/images/story_nordic_shoreline_1793288301824.jpg",
+  image: "/images/story_nordic_shoreline_1793288301824.jpg",
   alt: "Solitary wanderer at blue hour along a black sand shoreline in the Nordic North",
   location: "Vík í Mýrdal, South Coast",
   date: "October Twilight",

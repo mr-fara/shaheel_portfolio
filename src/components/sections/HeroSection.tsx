@@ -41,7 +41,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           style={{ transform: `translateY(${scrollY * 0.3}px)` }}
         >
           <img
-            src="/src/assets/images/hero_cinematic_light_1793288280398.jpg"
+            src="/images/hero_cinematic_light_1793288280398.jpg"
             alt="Cinematic coastal landscape in golden mist by Shaheel"
             className={`w-full h-full object-cover object-center transition-all duration-[2000ms] ease-out ${
               mounted ? 'scale-100 opacity-100' : 'scale-110 opacity-0'

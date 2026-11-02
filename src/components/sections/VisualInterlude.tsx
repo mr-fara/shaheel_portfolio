@@ -10,7 +10,7 @@ export const VisualInterlude: React.FC = () => {
       {/* Background Photograph */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/interlude_visual_light_1793288283082.jpg"
+          src="/images/interlude_visual_light_1793288283082.jpg"
           alt="Highland morning mist and dawn light"
           loading="lazy"
           referrerPolicy="no-referrer"

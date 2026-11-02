@@ -31,7 +31,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
           <div className="lg:col-span-5 relative">
             <div className="relative overflow-hidden bg-[#E8E4DC] shadow-lg">
               <img
-                src="/src/assets/images/about_shaheel_photographer_1793288282959.jpg"
+                src="/images/about_shaheel_photographer_1793288282959.jpg"
                 alt="Shaheel in studio reviewing medium format camera frames"
                 loading="lazy"
                 referrerPolicy="no-referrer"

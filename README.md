@@ -34,12 +34,12 @@ Run the app locally and open:
 
 ```text
 shaheel/
+├── public/
+│   └── images/
 ├── src/
 │   ├── App.tsx
 │   ├── index.css
 │   ├── main.tsx
-│   ├── assets/
-│   │   └── images/
 │   ├── components/
 │   │   ├── layout/
 │   │   ├── portfolio/
@@ -154,7 +154,7 @@ Then upload the generated `dist` output to your host.
 
 ## Notes
 
-This project uses local image assets stored under `src/assets/images` and references them directly in the portfolio data. If you replace the photography assets, keep the same naming conventions or update the paths in the data files.
+This project serves local image assets from `public/images` and references them using `/images/...` URLs. If you replace the photography assets, keep the same naming conventions or update the paths in the data files.
 
 ## License
 
